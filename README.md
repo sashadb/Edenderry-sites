@@ -4,7 +4,7 @@ Customize Leaflet maps with a linked Google Sheets template and GeoJSON data on 
 ![Preview](preview.jpg)
 
 ## Live links
-- Leaflet Map https://sashadb.github.io/leaflet-maps-with-google-sheets/
+- Leaflet Map https://sashadb.github.io/Edenderry-sites/
 - Google Sheet: https://docs.google.com/spreadsheets/d/1S_7ZejyraXTv1eFLFLeW9d4llc1t_cZU4GXgakv6uTs/edit#gid=0
 
 ## Create your own
