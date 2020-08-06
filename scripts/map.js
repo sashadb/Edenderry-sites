@@ -167,6 +167,35 @@ $(window).on('load', function() {
         }
       }
     
+	    //BEGIN section
+	    
+	    var pos = (getSetting('_pointsLegendPos') !== 'off')
+        ? 'topleft'
+        : getSetting('_pointsLegendPos');
+
+      var pointsLegend = L.control.layers(null, layers, {
+        collapsed: false,
+        position: pos,
+      });
+
+      if (getSetting('_pointsLegendPos') !== 'off') {
+        //console.log(pointsLegend)
+        pointsLegend.addTo(map);
+        pointsLegend._container.id = 'points-legend';
+        pointsLegend._container.className += ' ladder';
+      }
+    }
+
+    $('#points-legend').prepend('<h6 class="pointer">' + getSetting('_pointsLegendTitle') + '</h6>');
+    if (getSetting('_pointsLegendIcon') != '') {
+      $('#points-legend h6').prepend('<span class="legend-icon"><i class="fa '
+        + getSetting('_pointsLegendIcon') + '"></i></span>');
+	    
+	    
+	    
+	    
+	    //END section
+	    
     }
       
 

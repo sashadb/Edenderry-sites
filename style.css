@@ -213,6 +213,11 @@ form {
   width: 20px;
 }
 
+
+#points-legend{
+  visibility:hidden;
+}
+
 .markers-legend-icon {
   height: 12px;
   vertical-align: middle;
