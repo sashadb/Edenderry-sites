@@ -176,7 +176,7 @@ $(window).on('load', function() {
         position: pos,
       });
 
-      if (getSetting('_pointsLegendPos') !== 'off') {
+      if (getSetting('_pointsLegendPos') == 'off') {
         //console.log(pointsLegend)
         pointsLegend.addTo(map);
         pointsLegend._container.id = 'points-legend';
