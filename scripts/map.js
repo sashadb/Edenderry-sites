@@ -167,7 +167,7 @@ $(window).on('load', function() {
         }
       }
 
-      var pos = (getSetting('_pointsLegendPos') == 'off')
+      var pos = (getSetting('_pointsLegendPos') !== 'off')
         ? 'topleft'
         : getSetting('_pointsLegendPos');
 
