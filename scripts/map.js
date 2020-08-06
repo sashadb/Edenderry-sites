@@ -166,7 +166,8 @@ $(window).on('load', function() {
           layers[i].addTo(map);
         }
       }
-
+    
+    }
       
 
     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
