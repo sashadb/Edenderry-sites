@@ -180,7 +180,7 @@ $(window).on('load', function() {
 
       if (getSetting('_pointsLegendPos') !== 'off') {
         //console.log(pointsLegend)
-        
+        pointsLegend.addTo(map);
         pointsLegend._container.id = 'points-legend';
         pointsLegend._container.className += ' ladder';
       }
