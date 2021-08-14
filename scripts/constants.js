@@ -14,6 +14,7 @@ var constants = {
 	_authorURL: 'Author Email or Website',
   _codeCredit: 'Author Code Credit',
 	_githubRepo: 'Author Code Repo',
+	_googleAnalytics: 'Google Analytics Tracking ID',
 	// Map Settings
 	_tileProvider: 'Basemap Tiles',
 	_markercluster: 'Cluster Markers',
@@ -23,7 +24,6 @@ var constants = {
   _initLon: 'Initial Center Longitude',
 	// Map Controls
 	_mapSearch: 'Search Button',
-  _mapSearchKey: 'Mapzen Search Key',
 	_mapSearchCircleRadius: 'Search Radius',
 	_mapSearchZoom: 'Search Results Zoom Level',
 	_mapZoom: 'Zoom Controls',
